@@ -14,7 +14,7 @@ export default class Products extends Component {
 										src={product.image}
 										alt={product.name}
 										width="300 px"
-										height="350px"
+										height="360px"
 									/>
 									<p>{product.name}</p>
 								</a>
