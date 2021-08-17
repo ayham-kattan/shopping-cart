@@ -19,7 +19,7 @@ export default class Products extends Component {
 									<p>{product.name}</p>
 								</a>
 								<div className="product-price">
-									<div>{product.rating}</div>
+									<div>{product.price}$</div>
 									<button className="button-primary">add to cart</button>
 								</div>
 							</div>
